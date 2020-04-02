@@ -33,6 +33,7 @@
     "react-scripts": "^3.0.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
+    "simplewebrtc": "^3.0.2",
     "styled-components": "^4.1.3",
     "tslint": "^5.13.1",
     "typescript": "^3.5.1",
@@ -50,7 +51,7 @@
     "eject": "react-scripts eject",
     "fix-lint": "tslint --fix --project .",
     "generate:emoji": "node generate-emoji-shortcodes.js",
-    "start": "webpack-dev-server --mode development --open --history-api-fallback",
+    "start": "webpack",
     "test": "react-scripts test"
   }
 }

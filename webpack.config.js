@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin;
 
+
 module.exports = {
   entry: './src/index.tsx',
   resolve: {
@@ -29,6 +30,7 @@ module.exports = {
     }),
     new BundleAnalyzerPlugin({
       analyzerMode: process.env.ANALYZE ? 'server' : 'disabled'
-    })
+    }),
+    
   ]
 };
